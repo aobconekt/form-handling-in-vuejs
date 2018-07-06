@@ -65,7 +65,7 @@
                             v-for="priority in priorities" :selected="priorities == Medium">{{priority}}</option>
                         </select>
                     </div>
-                    <button @click.prevent="submitted">Submit</button>
+                    <button class="btn btn-info" @click.prevent="submitted">Submit</button>
                 </form>
             </div>
         <!-- details -->
